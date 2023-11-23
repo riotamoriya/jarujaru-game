@@ -1,0 +1,31 @@
+{
+  "name": "jarujaru-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jarujaru-game",
+  "author": "riotamoriya",
+  "keywords": [
+    "gatsby", "jarujaru-game"
+  ],
+  "scripts": {
+    "develop": "gatsby clean && gatsby develop -H 0.0.0.0 -p 8200",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby clean && gatsby build --prefix-paths && gatsby serve -p 8210",
+    "clean": "gatsby clean",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^5.12.4",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}

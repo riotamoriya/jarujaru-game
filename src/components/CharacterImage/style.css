@@ -1,0 +1,12 @@
+.character-image-container {
+  margin-bottom: 5vh;
+  pointer-events: none;
+  touch-action: none;
+}
+
+.character-image {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
